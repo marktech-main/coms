@@ -1,0 +1,159 @@
+@font-face {font-family: "Brandon";
+  src: url("../fonts/Brandon.eot"); /* IE9*/
+  src: url("../fonts/Brandon.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Brandon.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Brandon.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Brandon.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("Brandon.svg#Brandon Text W01 Light") format("svg"); /* iOS 4.1- */
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Brandon";
+	letter-spacing: 2px;
+	color: #d4d1da;
+}
+
+body {
+	background: #24262d;
+	overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#mainWrapper {
+	padding: 5px;
+} 
+
+.title1 {
+	font-size: 18px;	
+	text-transform: uppercase;
+}
+
+.title2 {
+	font-size: 70px;	
+	text-transform: uppercase;
+}
+
+.number1 {
+	font-size: 60px;
+	color: #7ce9e6;
+}
+
+.date {
+	font-size: 18px;
+	color: #7ce9e6;
+}
+
+.table {
+	border: 3px solid #2f323a;
+}
+.table.graph>tbody>tr>td {
+	background: #160e23;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #2f323a;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #35363a;
+}
+
+.table thead {
+	border-bottom: 3px solid #fd6d4b;
+	background: #100400;
+}
+
+.table thead td {
+	font-size: 25px;
+	color: #E97651;
+	text-align: center;
+}
+
+.table tbody td {
+	font-size: 18px;
+	text-align: center;
+}
+
+.spacer {
+	height: 50px;
+}
+
+#top .title1 {
+	min-height: 50px;
+    border-bottom: 3px solid #7ce9e6;
+    text-align: center;
+}
+.logo label {
+    font-size: 45px;
+    margin-left: 15px;
+    line-height: 70px;
+    color: #fd6d4b;
+}
+.logo small {
+    margin-left: 6px;
+    font-size: 19px;
+}
+.total {
+	padding: 0px 35px 45px 35px;
+}
+.total .content {
+	padding: 10px 43px 10px 43px;
+    background: #0c0713;
+    border-radius: 10px;
+}
+.highcharts-credits {
+	display: none;
+}
+.logo {
+	margin-bottom: 18px;
+    margin-top: 10px;
+}
+.date_range {
+	font-size: 19px;
+    margin-right: 26px;
+    margin-top: 20px;
+}
+.top_per table thead tr td {
+    font-size: 20px;
+}
+.top_per table tbody tr td {
+    font-size: 16px;
+}
+.week_label {
+	font-size: 19px;
+}
+.week_label {
+	background: #16171b;
+    color: #fbefcc;
+    font-size: 19px;
+    border-bottom: 2px solid #dddddd;
+    line-height: 1.8;
+}
+.total_rate {
+	font-weight: 800;
+    font-size: 20px;
+}
+.datenow {
+	font-size: 23px;
+}
+.caret_label #caret_up{
+	border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px;
+    color: #14e639;
+}
+.caret_label {
+	float: right;
+    margin-right: -35px;
+}
+.caret_label #caret_down{
+	border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #e61414;    
+}

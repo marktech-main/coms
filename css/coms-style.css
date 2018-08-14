@@ -1,0 +1,305 @@
+/* Custom Style */
+
+/* Import fonts */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+body {
+	background: #797979;
+	color: #797979;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #d15a3e;
+  cursor: pointer;
+}
+
+#page-wrapper {
+	padding: 15px !important;
+	background: transparent !important;
+}
+
+@media (max-width: 480px) {
+	.navbar-top-links .dropdown-tasks {
+		margin-left: 3px !important;
+	}
+	.navbar-top-links .dropdown-alerts {
+		margin-left: -60px !important;
+	}
+}
+
+.progress-deposit {
+	background: #01a89e;
+}
+
+.progress-withdraw {
+	background:#ff6c60;
+}
+
+.progress-transfer {
+	background: #a9d96c;
+}
+
+.progress-new-register {
+	background: #57c8f2;
+}
+
+.navbar {
+	background: #d15a3e;
+}
+
+.navbar-top-links a {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.nav>li>a:focus, .nav>li>a:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background: #c63b1a !important;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+.sidebar ul li a.active {
+	background: #d15a3e;
+	color: #fff;
+}
+
+.sidebar-create {
+	margin:15px;
+}
+
+.sidebar-create .btn, .sidebar ul li .btn.active {
+	background: #222533 !important;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #c63b1a;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background: #c63b1a;
+	border-color: #c63b1a;
+}
+
+h1 {
+	color: #39b5aa;
+	font-weight: normal !important;
+}
+
+.panel {
+	box-shadow:  4px 4px 15px -2px rgba(0,0,0,0.1);
+	border: none;
+}
+
+.panel-heading {
+	border: none;
+}
+
+.panel-body .table {
+	margin: 0;
+}
+
+#tasks-title {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+#tasks-title .panel-footer {
+	background: #fff;
+}
+
+@media (max-width: 480px){
+	#tasks-title .fa {
+		font-size: 2em;
+		text-align: center;
+		margin: 0 auto;
+	}
+	#tasks-title .tasks-icon {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+	}
+	#tasks-title .text-right {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+#deposit {
+	background: #01a89e;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#deposit a {
+	color: #01a89e;
+}
+
+#withdraw {
+	background: #ff6c60;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#withdraw a {
+	color: #ff6c60;
+}
+
+#transfer {
+	background: #a9d96c;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#transfer a {
+	color: #a9d96c;
+}
+
+#new-register {
+	background: #57c8f2;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#new-register a {
+	color: #57c8f2;
+}
+
+#tasks .panel-body {
+	padding: 0;
+}
+
+#tasks .personal-task {
+	margin: 20px;
+}
+
+.task-thumb-details h1 {
+	color: #fff !important;
+	display: inline;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.task-thumb-details {
+	-webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.task-thumb-details span {
+    padding: 15px;
+    -webkit-border-radius: 4px 0px 0px 0px;
+    border-radius: 4px 0px 0px 0px;
+}
+
+.panel-deposit .task-thumb-details {
+	background: #01a89e;
+}
+
+.panel-deposit .task-thumb-details span {
+    background: #008b83;
+}
+
+.task-thumb-details span.rev-combo {
+    padding: 15px;
+    line-height: normal;
+    -webkit-border-radius: 0px 4px 0px 0px;
+    border-radius: 0px 4px 0px 0px;
+}
+
+.panel-deposit .task-thumb-details span.rev-combo {
+    background: #008b83;
+}
+
+.panel-withdraw .task-thumb-details {
+	background: #ff6c60;
+}
+
+.panel-withdraw .task-thumb-details span {
+    background: #e56155;
+}
+
+.panel-withdraw .task-thumb-details span.rev-combo {
+    background: #e56155;
+}
+
+.panel-transfer .task-thumb-details {
+	background: #a9d96c;
+}
+
+.panel-transfer .task-thumb-details span {
+    background: #8fc051;
+}
+
+.panel-transfer .task-thumb-details span.rev-combo {
+    background: #8fc051;
+}
+
+.panel-new-register .task-thumb-details {
+	background: #57c8f2;
+}
+
+.panel-new-register .task-thumb-details span {
+    background: #3faed8;
+}
+
+.panel-new-register .task-thumb-details span.rev-combo {
+    background: #3faed8;
+}
+
+.table>tbody>tr:first-child>td {
+	border-top: none;
+}
+
+#tasks .time {
+	font-size: 12px;
+	float: right;
+	color: #aaa;
+}
+
+
+/* Tasks Form */
+#tasks-form .page-header {
+	margin: 0 !important;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+#tasks-form .btn-submit {
+	width: 30%;
+	background: #01a89e;
+	color: #fff;
+	margin-right: 15px;
+}
+
+#tasks-form form {
+	margin-top: 15px !important;
+}
+
+@media (max-width: 767px){
+	#tasks-form .form-control {
+		margin-bottom: 15px;
+	}
+	#tasks-form .btn-submit {
+		width: 50%;
+		margin: 0 15px;
+		float: none;
+	}
+}

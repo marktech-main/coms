@@ -1,0 +1,10 @@
+
+$brandon-font-path: $font-path !default;
+
+@font-face {
+  font-family: "Brandon";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Brandon"), local("Brandon"), url("#{$brandon-font-path}/Brandon.ttf") format("truetype"), url("#{$brandon-font-path}/Brandon.woff") format("woff");
+}
+

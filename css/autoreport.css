@@ -1,0 +1,156 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+footer {
+    margin: 50px 0;
+}
+#d_report {
+    cursor: pointer;
+    background: #5fba7d;
+    color: #fff;
+    padding: 11px;
+    border-radius: 4px;
+    float: left;
+    font-weight: 500 !important;
+}
+#d_report:hover {
+    background: #72ca8f;
+}
+#d_report.disabled {
+    cursor: not-allowed;
+    background: #64a279;
+}
+.d_countdown {
+	margin-left: 10px;
+    font-size: 13px;
+}
+table.ppr_autoreport tr td, table.ppr_autoreport tr th {
+    text-align: center;
+}
+table.ppr_autoreport tr td.team_name, table.ppr_autoreport tr th.team_name {
+    text-align: left !important;
+}
+table.ppr_autoreport tr td.m1, table.ppr_autoreport tr td.m3 {
+    background: #f1f1f1;
+}
+table.ppr_autoreport tr td.m2 {
+    background: #eaeaea;
+}
+.date_label > th {
+    border-top: none !important;
+} 
+.sum_label > th {
+    border-bottom: none !important;
+    font-weight: 6s00 !important;
+    font-weight: 500;
+}
+.sum_label >th.box {
+    background: #eaeaea;
+    padding: 12px;
+}
+.sum_label >th.box.mid {
+    border-left: 10px #fff solid;
+    border-right: 10px #fff solid;
+}
+.ppr_autoreport #caret_down {
+    color: red;
+    margin-right: 5px;
+}
+
+.ppr_autoreport #caret_up {
+    color: green;
+    margin-right: 5px;
+}
+
+.ppr_autoreport .same {
+    margin-right: 5px;
+}
+.team_name span {
+    position: absolute;
+    margin-left: -21px;
+    font-size: 12.4px;
+}
+th.ranking_monthly, td.ranking_monthly {
+    width: 8%;
+}
+th.team_name, td.team_name {
+    width: 18%;
+}
+.ranking_monthly span {
+    padding: 4px;
+}
+.ranking_monthly span.top {
+    background: #4CAF50;
+    color: #fff;
+}
+.ranking_monthly span.mid {
+    background: #2196F3;
+    color: #fff;
+}
+.ranking_monthly span.poor {
+    background: #F44336;
+    color: #fff;
+}
+/*.ranking_monthly.mix_top_mid {
+    background: #009688;
+    color: #fff;
+}
+.ranking_monthly.mix_mid_poor {
+    background: #FF5722;
+    color: #fff;
+}
+.ranking_monthly.mix_top_poor {
+    background: #3F51B5;
+    color: #fff; 
+}*/
+.custom_container {
+    width: 1400px;
+}
+.ranking_monthly span.label {
+    font-size: 13px;
+    font-weight: 500;
+}
+.legend .label {
+    display: block !important;
+    width: 35px;
+    margin-top: 4px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+.legend span {
+    margin-left: 10px;
+}
+.legend {
+    position: fixed;
+    width: 181px;
+    left: 0px;
+    top: 254px;
+    z-index: 100;
+    border-top: 0;
+    background: #eaeaea;
+    padding: 10px 0 10px 0;
+}
+.legend table th {
+    text-align: center;
+    padding-top: 15px;
+}
+.legend table th.head {
+    padding: 0;
+}
+.legend #caret_up {
+    color: green;
+}
+.legend #caret_down {
+    color: red;
+}
+.legend .same {
+    margin-right: -4px;
+    margin-left: 5px;
+} 
+.legend span.dropup {
+    margin: 0;
+}
